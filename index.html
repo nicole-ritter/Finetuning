@@ -7,6 +7,20 @@
         Reproduktion von Drucktechniken und Designstile durch LoRA-Trainings in Stable Diffusion</title>
     <!-- Verlinkung zum externen CSS-Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        .video-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: none;
+        }
+    </style>
 </head>
 <body>
     <!-- Kopfbereich der Seite -->
@@ -26,12 +40,11 @@
             <div class="text-content">
                 <h1><br><br><br><br><br><br>Künstliche Intelligenz und Design:<br><br>Reproduktion von Drucktechniken und<br>Designstile durch LoRA-Trainings in<br>Stable Diffusion<br><br><br><br></h1>
             </div>
-            <div class="text-and-image"> <br><br>
-                <!-- Video einbetten -->
-                <video width="600" controls>
-                    <source src="ANIMATION.mp4" type="video/mp4">
-                    Ihr Browser unterstützt das Video-Tag nicht.
-                </video>
+            <div class="text-and-image">
+                <br><br>
+                <div class="video-container">
+                    <video src="ANIMATION.mp4" alt="Beschreibung des Videos" muted autoplay loop class="hover-pause"></video>
+                </div>
             </div>
         </div>
     </header>
@@ -123,7 +136,7 @@
     <!-- Abschnitt Kontakt -->
     <section id="kontakt">
         <h2>KONTAKT</h2>
-        <p>Falls ihr Fragen zu meiner Arbeit habt oder mehr darüber erfahren möchtet, wie KI und Design zusammenarbeiten können, schreibt mir gerne!<br><br><a href="mailto:email@example.com">n.ritter20@outlook.de</a><br><br>Ich hoffe, euch hat der Einblick in meine Bachelorarbeit gefallen, ich freue mich auf eure Rückmeldungen!</p>
+        <p>Falls ihr Fragen zu meiner Arbeit habt oder mehr darüber erfahren möchtet, wie KI und Design zusammenarbeiten können, schreibt mir gerne!<br><br><a href="mailto:email@example.com">                   n.ritter20@outlook.de</a><br><br>Ich hoffe, euch hat der Einblick in meine Bachelorarbeit gefallen, ich freue mich auf eure Rückmeldungen!</p>
     </section>
 
     <!-- Fußbereich der Seite -->
